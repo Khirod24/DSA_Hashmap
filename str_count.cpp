@@ -5,6 +5,9 @@ int main(){
   cout<<"ENTER THE STRING: ";
   cin>>s;
   //int hashmap[100]={0};
+  //   for(int i=0; i<s.size(); i++){
+  //       hashmap[s[i]-'a']++;
+  //   }
   int hashmap[256]={0};
   for(int i=0; i<s.size(); i++){
       hashmap[s[i]]++;
